@@ -1,0 +1,50 @@
+.header {
+background: #F8AFA6;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 2rem 6rem;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+  }
+
+  .CartWrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-align: center;
+   width: 250px;
+   background: #F79489;
+   border-radius: 9999px; 
+   padding: 1rem 3rem;
+   cursor: pointer;
+   transition: background .3s;
+
+   &:hover {
+    filter: brightness(95%);
+   }
+
+   svg {
+     width: 30px;
+     height: 30px;
+
+   }
+
+   h3 {
+     font-size: 1.8rem;
+     flex: 1;
+   }
+
+   .counter {
+     display: flex;
+     font-size: 1.8rem;
+     background: #F8AFA6;
+     border-radius: 9999px;
+     padding: 1rem 1.5rem;
+   }
+  }  
+}

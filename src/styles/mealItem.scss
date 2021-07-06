@@ -1,0 +1,32 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 2rem 0;
+
+  .meal-info {
+    .meal-name {
+      font-size: 2rem;
+      color: #000;
+      font-weight: 700;
+    }
+    .meal-desc {
+      font-size: 1.5rem;
+      font-style: italic;
+      font-weight: 300;
+      margin: .5rem 0;
+    }
+    .meal-price {
+      font-size: 2rem;
+      font-style: italic;
+      font-weight: 700;
+      color: #F8AFA6;
+    }
+  }
+  .meal-amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

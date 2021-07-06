@@ -1,0 +1,46 @@
+html {
+  font-size: 62.5%;
+
+}
+
+body {
+  position: relative;
+  background: #FADCD9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+*, button, input, label, ul, li {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.mealCard {
+max-width: 840px;
+margin: 6rem auto;
+background: #fff;
+padding: 2rem;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 80%);
+border-radius: 8px;
+}
+
+.amount {
+  display: flex;
+}

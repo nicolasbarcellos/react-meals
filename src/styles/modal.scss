@@ -1,0 +1,66 @@
+.backdrop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 2;
+  background: #000;
+  opacity: .7;
+}
+
+.modal {
+position: fixed;
+transform: translate(-50%, -50%);
+left: 50%;
+top: 50%;
+z-index: 3;
+
+  &-wrapper {
+
+    width: 540px;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 80%);
+    background: #fff;
+    display: flex;
+    flex-direction: column
+  }
+
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+  }
+
+  button {
+    align-self: flex-end;
+  }
+}
+
+.modal-meals {
+margin: 1rem 0;
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.price {
+  color: #F8AFA6;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.mealsCart {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
